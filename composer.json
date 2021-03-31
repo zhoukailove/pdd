@@ -1,0 +1,27 @@
+{
+    "name": "zhoukai/pdd",
+    "description": "简约优雅的拼多多SDK",
+    "keywords": ["拼多多", "pdd", "sdk"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "pimple/pimple": "^3.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ETaobao\\": "src/"
+        },
+        "files": [
+            "src/Kernel/Support/Helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "zhoukai",
+            "email": "fayake@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
